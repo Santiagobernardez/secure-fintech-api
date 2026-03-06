@@ -12,6 +12,7 @@ uvicorn[standard]==0.30.6
 sqlalchemy==2.0.35
 asyncpg==0.29.0          # async PostgreSQL driver
 alembic==1.13.3          # database migrations
+psycopg2-binary==2.9.9
 
 # Auth & Security
 python-jose[cryptography]==3.3.0   # JWT encoding/decoding
@@ -24,3 +25,5 @@ pydantic-settings==2.5.2
 
 # HTTP client (used in tests and health checks)
 httpx==0.27.2
+
+
